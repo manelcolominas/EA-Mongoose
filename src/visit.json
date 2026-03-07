@@ -1,0 +1,16 @@
+[
+  {
+    customer_id: ,
+    restaurant_id: ,
+    date: "2026-03-05T20:00:00Z",
+    points_earned: 10,
+    bill_amount: 25.50
+  },
+  {
+    customer_id: "65f2b1a9e8a12b001234bbbc",
+    restaurant_id: "65f2b2f4e8a12b001234cccc",
+    date: "2026-03-06T13:15:00Z",
+    points_earned: 8,
+    bill_amount: 18.75
+  }
+]

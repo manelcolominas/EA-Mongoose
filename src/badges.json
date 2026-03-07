@@ -1,0 +1,22 @@
+[
+  {
+    title: "Explorador Gastronòmic",
+    description: "Visitar 5 restaurants diferents dins de l'aplicació",
+    type: "client"
+  },
+  {
+    title: "Crític Actiu",
+    description: "Escriure 10 valoracions de restaurants",
+    type: "client"
+  },
+  {
+    "title": "Excel·lent Tracte al Client",
+    "description": "Obtenir una valoració mitjana superior a 4.5 en el servei",
+    type: "restaurant"
+  },
+  {
+    title: "Restaurant Generós",
+    description: "Donar més punts de fidelització que la mitjana de restaurants de la zona",
+    type: "restaurant"
+  }
+]

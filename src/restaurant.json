@@ -1,0 +1,34 @@
+{
+  profile: {
+    name: "La Pasta Bella",
+    description: "Restaurant italià amb receptes tradicionals i ingredients frescos.",
+    rating: 4.65,
+    category: "Italià",
+    timetable: ["12:00-15:30", "19:00-23:00"],
+    image: [
+      "https://app-images/la_pasta_bella_front.jpg",
+      "https://app-images/la_pasta_bella_dining.jpg"
+    ],
+    contact: {
+      phone: "+34 600000000",
+      email: "info@lapastabella.com"
+    },
+    location: {
+      city: "Barcelona",
+      address: "Carrer de Mallorca 120",
+      coordinates: {
+        type: "Point",
+        coordinates: [2.1734, 41.3851]
+      }
+    }
+  },
+  rewards: [
+    "65f2f6b1e8a12b001234bbbb",
+    "65f2f6b1e8a12b001234bbbc"
+  ],
+  statistics: "65f2f7c1e8a12b001234cccc",
+  badges: [
+    "65f2f8d1e8a12b001234dddd",
+    "65f2f8d1e8a12b001234ddde"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  name: "Clara Martínez",
+  email: "clara.martinez@example.com",
+  passwordHash: "$2b$10$abcdef1234567890abcdef1234567890abcdef1234567890",
+  profilePicture: "https://app-images/users/clara.jpg",
+  pointsWallet: [
+    {
+      restaurant_id: ,
+      points: 120
+    },
+    {
+      restaurant_id: ,
+      "points": 85
+    },
+    {
+      restaurant_id: ,
+      points: 200
+    }
+  ],
+  visitHistory: [
+    ,
+    ,
+
+  ],
+  favoriteRestaurants: [
+    ,
+
+  ],
+  badges: [
+    ,
+    ,
+
+  ],
+  reviews: [
+    ,
+    ,
+
+  ]
+}

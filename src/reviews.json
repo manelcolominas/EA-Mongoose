@@ -1,0 +1,33 @@
+[
+  {
+    customer_id: "65f2b1a9e8a12b001234bbbb",
+    restaurant_id: "65f2b2f4e8a12b001234cccc",
+    date: "2026-03-05T20:15:00Z",
+    ratings: {
+      food_quality: 5,
+      staff_service: 4,
+      cleanliness: 5,
+      environment: 4
+    },
+    comment: "El menjar estava excel·lent i el personal molt amable. Tornaré segur!",
+    photos: [
+      "https://app-images/food1.jpg",
+      "https://app-images/table1.jpg"
+    ],
+    likes: 3,
+    extraPoints: 5
+  },
+  {
+    customer_id: "65f2b1a9e8a12b001234bbbb",
+    restaurant_id: "65f2b2f4e8a12b001234cccc",
+    date: "2026-03-06T13:10:00Z",
+    ratings: {
+      food_quality: 4,
+      staff_service: 5,
+      cleanliness: 4,
+      environment: 4
+    },
+    likes: 3,
+    extraPoints: 1
+  }
+]

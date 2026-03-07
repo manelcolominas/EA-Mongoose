@@ -1,0 +1,10 @@
+[
+  {
+    restaurant_id: ,
+    totalPointsGiven: 1250,
+    loyalCustomers: 85,
+    mostRequestedRewards: [
+    ],
+    averagePointsPerVisit: 8
+  }
+]

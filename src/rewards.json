@@ -1,0 +1,19 @@
+[
+  {
+    "restaurant_id": "65f2b2f4e8a12b001234cccc",
+    "name": "Postre gratuït",
+    "description": "Rep un postre gratuït després d'acumular punts.",
+    "pointsRequired": 50,
+    "active": true,
+    "expiry": "2026-12-31T23:59:59Z",
+    "timesRedeemed": 12
+  },
+  {
+  "restaurant_id": "65f2b2f4e8a12b001234cccc",
+  "name": "10% de descompte",
+  "description": "Descompte del 10% en el teu pròxim àpat.",
+  "pointsRequired": 30,
+  "active": true,
+  "timesRedeemed": 45
+  }
+]
