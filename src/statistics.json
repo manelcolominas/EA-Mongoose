@@ -1,9 +1,11 @@
 [
   {
-    restaurant_id: ,
+    restaurant_id: restaurants[0]._id,
     totalPointsGiven: 1250,
     loyalCustomers: 85,
     mostRequestedRewards: [
+      rewards[0]._id,
+      rewards[1]._id
     ],
     averagePointsPerVisit: 8
   }

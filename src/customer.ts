@@ -6,7 +6,7 @@ export interface ICustomer {
   name: string;
   email: string;
   passwordHash?: string;
-  profilePicture?: string[];
+  profilePictures?: string[];
   pointsWallet: { restaurant_id: Types.ObjectId; points: number }[];
   visitHistory: Types.ObjectId[];
   favoriteRestaurants: Types.ObjectId[];
@@ -19,7 +19,7 @@ const customerSchema = new Schema<ICustomer>({
   name: { type: String, required: true },
   email: { type: String, required: true, unique: true, match: /.+\@.+\..+/ },
   passwordHash: { type: String },
-  profilePicture: [{ type: String }],
+  profilePictures: [{ type: String }],
   pointsWallet: [{
     restaurant_id: { type: Schema.Types.ObjectId, ref: 'Restaurant', required: true },
     points: { type: Number, default: 0 }

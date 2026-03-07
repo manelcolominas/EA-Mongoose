@@ -23,12 +23,13 @@
     }
   },
   rewards: [
-    "65f2f6b1e8a12b001234bbbb",
-    "65f2f6b1e8a12b001234bbbc"
+    rewards[0]._id,
+    rewards[1]._id
   ],
-  statistics: "65f2f7c1e8a12b001234cccc",
+  statistics: statistics[0]._id,
   badges: [
-    "65f2f8d1e8a12b001234dddd",
-    "65f2f8d1e8a12b001234ddde"
+    badges[0]._id,
+    badges[1]._id,
+    badges[2]._id
   ]
 }

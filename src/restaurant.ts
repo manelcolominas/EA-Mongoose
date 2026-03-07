@@ -35,7 +35,16 @@ const restaurantSchema = new Schema<IRestaurant>(
         name: { type: String, required: true },
         description: { type: String, required: true },
         rating: { type: Number, default: 0 }, // inicialment 0
-        category: { type: String, required: true },
+        category: {
+          type: String,
+          enum: [
+            'Italià', 'Japonès', 'Sushi', 'Mexicà', 'Xinès', 'Indi', 'Tailandès', 'Francès',
+            'Espanyol', 'Grec', 'Turc', 'Coreà', 'Vietnamita','Alemany', 'Brasileny', 'Peruà', 'Vegà', 'Vegetarià', 'Marisc', 'Carn',
+            'Pizzeria', 'Cafeteria', 'Ramen', 'Gluten Free','Gourmet', 'Fast Food', 'Buffet', 'Food Truck',
+            'Lounge', 'Pub', 'Wine Bar', 'Rooftop', 'Bar', 'Taperia', 'Gelateria'
+          ],
+          required: true
+        },
         timetable: [{ type: String }],
         image: [{ type: String }],
         contact: {

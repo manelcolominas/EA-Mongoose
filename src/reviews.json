@@ -4,8 +4,8 @@
     restaurant_id: "65f2b2f4e8a12b001234cccc",
     date: "2026-03-05T20:15:00Z",
     ratings: {
-      food_quality: 5,
-      staff_service: 4,
+      foodQuality: 5,
+      staffService: 4,
       cleanliness: 5,
       environment: 4
     },
@@ -22,8 +22,8 @@
     restaurant_id: "65f2b2f4e8a12b001234cccc",
     date: "2026-03-06T13:10:00Z",
     ratings: {
-      food_quality: 4,
-      staff_service: 5,
+      foodQuality: 4,
+      staffService: 5,
       cleanliness: 4,
       environment: 4
     },

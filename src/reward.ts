@@ -7,7 +7,7 @@ export interface IReward {
     name: string;
     description: string;
     pointsRequired: number;
-    "active": boolean,
+    active: boolean;
     expiry?: Date;
     timesRedeemed: number;
 }

@@ -171,7 +171,7 @@ async function runDemoSeminari() {
         name: "Clara Martínez",
         email: "clara.martinez@example.com",
         passwordHash: "$2b$10$abcdef1234567890abcdef1234567890abcdef1234567890",
-        profilePicture: "https://app-images/users/clara.jpg",
+        profilePictures: ["https://app-images/users/clara.jpg"],
         pointsWallet: [
           {
             restaurant_id: restaurants[0]._id,
@@ -189,8 +189,8 @@ async function runDemoSeminari() {
         customer_id: customers[0]._id,
         restaurant_id: restaurants[0]._id,
         date: "2026-03-05T20:00:00Z",
-        points_earned: 10,
-        bill_amount: 25.50
+        pointsEarned: 10,
+        billAmount: 25.50
       }
     ]);
 
@@ -201,8 +201,8 @@ async function runDemoSeminari() {
         restaurant_id: restaurants[0]._id,
         date: "2026-03-05T20:15:00Z",
         ratings: {
-          food_quality: 5,
-          staff_service: 4,
+          foodQuality: 5,
+          staffService: 4,
           cleanliness: 5,
           environment: 4
         },
@@ -219,8 +219,8 @@ async function runDemoSeminari() {
         restaurant_id: restaurants[0]._id,
         date: "2026-03-06T13:10:00Z",
         ratings: {
-          food_quality: 4,
-          staff_service: 5,
+          foodQuality: 4,
+          staffService: 5,
           cleanliness: 4,
           environment: 4
         },

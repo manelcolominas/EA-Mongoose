@@ -5,35 +5,33 @@
   profilePicture: "https://app-images/users/clara.jpg",
   pointsWallet: [
     {
-      restaurant_id: ,
+      restaurant_id: restaurant[0]._id,
       points: 120
     },
     {
-      restaurant_id: ,
-      "points": 85
+      restaurant_id: restaurant[1]._id,
+      points: 85
     },
     {
-      restaurant_id: ,
+      restaurant_id: restaurant[2]._id,
       points: 200
     }
   ],
   visitHistory: [
-    ,
-    ,
-
+    visits[0]._id,
+    visits[1]._id
   ],
   favoriteRestaurants: [
-    ,
-
+    restaurants[0]._id,
+    restaurants[1]._id
   ],
   badges: [
-    ,
-    ,
-
+    badges[0]._id,
+    badges[1]._id,
+    badges[2]._id
   ],
   reviews: [
-    ,
-    ,
-
+    reviews[0]._id,
+    reviews[1]._id
   ]
 }
